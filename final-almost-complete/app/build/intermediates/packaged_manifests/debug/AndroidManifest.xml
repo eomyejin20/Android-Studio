@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.practice.loginregister"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="26"
+        android:targetSdkVersion="32" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@drawable/refrigerator"
+        android:label="naengsiljang"
+        android:roundIcon="@drawable/refrigerator"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.LoginRegister" >
+        <activity
+            android:name="com.practice.loginregister.LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.practice.loginregister.RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.practice.loginregister.AllRecipeActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.practice.loginregister.UserActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.practice.loginregister.MyRefrigeratorActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.practice.loginregister.IngredientSelectActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.practice.loginregister.PeriodInsertActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.practice.loginregister.CombineActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.practice.loginregister.CombinefinalActivity"
+            android:exported="true" />
+        --
+        <!-- 여기에서 시작 액티비티 설정 -->
+        <activity
+            android:name="com.practice.loginregister.MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.practice.loginregister.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
+    </application>
+
+</manifest>

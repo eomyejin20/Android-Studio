@@ -1,0 +1,129 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.practice.loginregister"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->C:\Users\djaxl\AndroidStudioProjects\final-almost-complete\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\djaxl\AndroidStudioProjects\final-almost-complete\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\djaxl\AndroidStudioProjects\final-almost-complete\app\src\main\AndroidManifest.xml:5:5-51:19
+12        android:allowBackup="true"
+12-->C:\Users\djaxl\AndroidStudioProjects\final-almost-complete\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.7.0] C:\Users\djaxl\.gradle\caches\transforms-3\02483169c4c9e0ddffa88758188ac6f1\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:extractNativeLibs="false"
+16        android:icon="@drawable/refrigerator"
+16-->C:\Users\djaxl\AndroidStudioProjects\final-almost-complete\app\src\main\AndroidManifest.xml:7:9-46
+17        android:label="naengsiljang"
+17-->C:\Users\djaxl\AndroidStudioProjects\final-almost-complete\app\src\main\AndroidManifest.xml:8:9-37
+18        android:roundIcon="@drawable/refrigerator"
+18-->C:\Users\djaxl\AndroidStudioProjects\final-almost-complete\app\src\main\AndroidManifest.xml:9:9-51
+19        android:supportsRtl="true"
+19-->C:\Users\djaxl\AndroidStudioProjects\final-almost-complete\app\src\main\AndroidManifest.xml:10:9-35
+20        android:testOnly="true"
+21        android:theme="@style/Theme.LoginRegister" >
+21-->C:\Users\djaxl\AndroidStudioProjects\final-almost-complete\app\src\main\AndroidManifest.xml:11:9-51
+22        <activity
+22-->C:\Users\djaxl\AndroidStudioProjects\final-almost-complete\app\src\main\AndroidManifest.xml:12:9-14:39
+23            android:name="com.practice.loginregister.LoginActivity"
+23-->C:\Users\djaxl\AndroidStudioProjects\final-almost-complete\app\src\main\AndroidManifest.xml:13:13-42
+24            android:exported="true" />
+24-->C:\Users\djaxl\AndroidStudioProjects\final-almost-complete\app\src\main\AndroidManifest.xml:14:13-36
+25        <activity
+25-->C:\Users\djaxl\AndroidStudioProjects\final-almost-complete\app\src\main\AndroidManifest.xml:15:9-17:39
+26            android:name="com.practice.loginregister.RegisterActivity"
+26-->C:\Users\djaxl\AndroidStudioProjects\final-almost-complete\app\src\main\AndroidManifest.xml:16:13-45
+27            android:exported="true" />
+27-->C:\Users\djaxl\AndroidStudioProjects\final-almost-complete\app\src\main\AndroidManifest.xml:17:13-36
+28        <activity
+28-->C:\Users\djaxl\AndroidStudioProjects\final-almost-complete\app\src\main\AndroidManifest.xml:18:9-20:38
+29            android:name="com.practice.loginregister.AllRecipeActivity"
+29-->C:\Users\djaxl\AndroidStudioProjects\final-almost-complete\app\src\main\AndroidManifest.xml:19:13-46
+30            android:exported="true" />
+30-->C:\Users\djaxl\AndroidStudioProjects\final-almost-complete\app\src\main\AndroidManifest.xml:20:13-36
+31        <activity
+31-->C:\Users\djaxl\AndroidStudioProjects\final-almost-complete\app\src\main\AndroidManifest.xml:21:9-23:38
+32            android:name="com.practice.loginregister.UserActivity"
+32-->C:\Users\djaxl\AndroidStudioProjects\final-almost-complete\app\src\main\AndroidManifest.xml:22:13-41
+33            android:exported="true" />
+33-->C:\Users\djaxl\AndroidStudioProjects\final-almost-complete\app\src\main\AndroidManifest.xml:23:13-36
+34        <activity
+34-->C:\Users\djaxl\AndroidStudioProjects\final-almost-complete\app\src\main\AndroidManifest.xml:24:9-26:38
+35            android:name="com.practice.loginregister.MyRefrigeratorActivity"
+35-->C:\Users\djaxl\AndroidStudioProjects\final-almost-complete\app\src\main\AndroidManifest.xml:25:13-51
+36            android:exported="true" />
+36-->C:\Users\djaxl\AndroidStudioProjects\final-almost-complete\app\src\main\AndroidManifest.xml:26:13-36
+37        <activity
+37-->C:\Users\djaxl\AndroidStudioProjects\final-almost-complete\app\src\main\AndroidManifest.xml:27:9-29:38
+38            android:name="com.practice.loginregister.IngredientSelectActivity"
+38-->C:\Users\djaxl\AndroidStudioProjects\final-almost-complete\app\src\main\AndroidManifest.xml:28:13-53
+39            android:exported="true" />
+39-->C:\Users\djaxl\AndroidStudioProjects\final-almost-complete\app\src\main\AndroidManifest.xml:29:13-36
+40        <activity
+40-->C:\Users\djaxl\AndroidStudioProjects\final-almost-complete\app\src\main\AndroidManifest.xml:30:9-32:38
+41            android:name="com.practice.loginregister.PeriodInsertActivity"
+41-->C:\Users\djaxl\AndroidStudioProjects\final-almost-complete\app\src\main\AndroidManifest.xml:31:13-49
+42            android:exported="true" />
+42-->C:\Users\djaxl\AndroidStudioProjects\final-almost-complete\app\src\main\AndroidManifest.xml:32:13-36
+43        <activity
+43-->C:\Users\djaxl\AndroidStudioProjects\final-almost-complete\app\src\main\AndroidManifest.xml:33:9-35:38
+44            android:name="com.practice.loginregister.CombineActivity"
+44-->C:\Users\djaxl\AndroidStudioProjects\final-almost-complete\app\src\main\AndroidManifest.xml:34:13-44
+45            android:exported="true" />
+45-->C:\Users\djaxl\AndroidStudioProjects\final-almost-complete\app\src\main\AndroidManifest.xml:35:13-36
+46        <activity
+46-->C:\Users\djaxl\AndroidStudioProjects\final-almost-complete\app\src\main\AndroidManifest.xml:36:9-38:38
+47            android:name="com.practice.loginregister.CombinefinalActivity"
+47-->C:\Users\djaxl\AndroidStudioProjects\final-almost-complete\app\src\main\AndroidManifest.xml:37:13-49
+48            android:exported="true" />
+48-->C:\Users\djaxl\AndroidStudioProjects\final-almost-complete\app\src\main\AndroidManifest.xml:38:13-36
+49        --
+50        <!-- 여기에서 시작 액티비티 설정 -->
+51        <activity
+51-->C:\Users\djaxl\AndroidStudioProjects\final-almost-complete\app\src\main\AndroidManifest.xml:42:9-50:20
+52            android:name="com.practice.loginregister.MainActivity"
+52-->C:\Users\djaxl\AndroidStudioProjects\final-almost-complete\app\src\main\AndroidManifest.xml:43:13-41
+53            android:exported="true" >
+53-->C:\Users\djaxl\AndroidStudioProjects\final-almost-complete\app\src\main\AndroidManifest.xml:44:13-36
+54            <intent-filter>
+54-->C:\Users\djaxl\AndroidStudioProjects\final-almost-complete\app\src\main\AndroidManifest.xml:45:13-49:29
+55                <action android:name="android.intent.action.MAIN" />
+55-->C:\Users\djaxl\AndroidStudioProjects\final-almost-complete\app\src\main\AndroidManifest.xml:46:17-69
+55-->C:\Users\djaxl\AndroidStudioProjects\final-almost-complete\app\src\main\AndroidManifest.xml:46:25-66
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->C:\Users\djaxl\AndroidStudioProjects\final-almost-complete\app\src\main\AndroidManifest.xml:48:17-77
+57-->C:\Users\djaxl\AndroidStudioProjects\final-almost-complete\app\src\main\AndroidManifest.xml:48:27-74
+58            </intent-filter>
+59        </activity>
+60
+61        <provider
+61-->[androidx.emoji2:emoji2:1.0.0] C:\Users\djaxl\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+62            android:name="androidx.startup.InitializationProvider"
+62-->[androidx.emoji2:emoji2:1.0.0] C:\Users\djaxl\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+63            android:authorities="com.practice.loginregister.androidx-startup"
+63-->[androidx.emoji2:emoji2:1.0.0] C:\Users\djaxl\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+64            android:exported="false" >
+64-->[androidx.emoji2:emoji2:1.0.0] C:\Users\djaxl\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+65            <meta-data
+65-->[androidx.emoji2:emoji2:1.0.0] C:\Users\djaxl\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+66                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+66-->[androidx.emoji2:emoji2:1.0.0] C:\Users\djaxl\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+67                android:value="androidx.startup" />
+67-->[androidx.emoji2:emoji2:1.0.0] C:\Users\djaxl\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+68            <meta-data
+68-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\djaxl\.gradle\caches\transforms-3\4d932a67b7be3c4366d55752ebd69384\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+69                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+69-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\djaxl\.gradle\caches\transforms-3\4d932a67b7be3c4366d55752ebd69384\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+70                android:value="androidx.startup" />
+70-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\djaxl\.gradle\caches\transforms-3\4d932a67b7be3c4366d55752ebd69384\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+71        </provider>
+72    </application>
+73
+74</manifest>
